@@ -1,0 +1,27 @@
+.save{
+    display: none;
+}
+td {
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+}
+th{
+    padding: 7px;
+}
+#add:hover{
+    background-color: rgb(233, 199, 156);
+}
+.del:hover{
+    background-color: rgb(226, 36, 36);
+}
+.save:hover{
+    background-color: rgb(63, 129, 8);
+}
+.edit:hover{
+background-color: rgb(3, 108, 139);
+}
+.buttons{
+    width: 101px;
+}

@@ -1,0 +1,41 @@
+form {
+    width: 500px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(238, 240, 238);
+}
+
+input[type=submit] {
+    background-color: green;
+    color: white;
+}
+
+input[type=button] {
+    background-color: rgb(240, 51, 51);
+    color: white;
+}
+
+input[type=button],
+input[type=submit] {
+    width: 50%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+hr {
+    border: 0.5px solid rgb(197, 193, 193);
+    margin-bottom: 20px;
+}
